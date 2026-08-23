@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom'
-import { Sidebar, Header } from '../components/layout'
+import { AppSidebar, Header } from '../components/layout/index'
 
 export default function DefaultLayout() {
   return (
     <div className="flex h-screen w-screen overflow-hidden bg-zinc-950 text-zinc-100">
-      <Sidebar />
+      <AppSidebar />
 
       <div className="flex flex-1 flex-col overflow-hidden">
         <Header />
