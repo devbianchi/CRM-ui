@@ -39,7 +39,7 @@ export default function Dashboard() {
                                         <MoreHorizontal className="h-4 w-4" />
                                         </Button>
                                     </DropdownMenuTrigger>
-                                    <DropdownMenuContent align="end" className="bg-bg-white text-primary-foreground dark:text-primary-foreground-dark">
+                                    <DropdownMenuContent align="end">
                                         <DropdownMenuItem>
                                         Editar
                                         </DropdownMenuItem>
