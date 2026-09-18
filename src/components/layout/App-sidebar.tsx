@@ -13,7 +13,7 @@ import {
 const items = [
   { title: "Início", url: "/", icon: Home },
   { title: "Mensagens", url: "/messages", icon: Inbox },
-  { title: "Calendário", url: "/calendar", icon: Calendar },
+  { title: "Calendário", url: "/calendar", icon: Calendar },/*  */
   { title: "Buscar", url: "/search", icon: Search },
   { title: "Configurações", url: "/settings", icon: Settings },
 ]

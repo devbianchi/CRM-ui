@@ -31,7 +31,7 @@ export default function Dashboard() {
                             <TableCell>{item.name}</TableCell>
                             <TableCell>{item.email}</TableCell>
                             <TableCell>{item.phone}</TableCell>
-                            <TableCell className="right">
+                            <TableCell className="right">z
                                 <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
                                         <Button variant="ghost" className="h-8 w-8 p-0">
